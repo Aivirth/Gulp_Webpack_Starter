@@ -1,0 +1,284 @@
+// Socials
+$socials: (
+  twitter: #00aced,
+  facebook: #3b5998,
+  googleplus: #dd4b39,
+  pinterest: #cb2027,
+  linkedin: #007bb6,
+  youtube: #bb0000,
+  vimeo: #1ab7ea,
+  tumblr: #32506d,
+  instagram: #bc2a8d,
+  flickr: #ff0084,
+  dribbble: #ea4c89,
+  quora: #a82400,
+  foursquare: #0072b1,
+  forrst: #5b9a68,
+  vk: #45668e,
+  wordpress: #21759b,
+  stumbleupon: #eb4823,
+  yahoo: #7b0099,
+  blogger: #fb8f3d,
+  soundcloud: #ff3a00
+);
+
+//Mineral UI - https://mineral-ui.com/color
+$mineral__black: hsl(223, 11%, 13%);
+
+$mineral__red: (
+  "red_10": hsl(0, 50%, 96%),
+  "red_20": hsl(0, 79%, 91%),
+  "red_30": hsl(0, 87%, 85%),
+  "red_40": hsl(0, 92%, 77%),
+  "red_50": hsl(0, 89%, 64%),
+  "red_60": hsl(0, 78%, 49%),
+  "red_70": hsl(0, 87%, 39%),
+  "red_80": hsl(0, 82%, 31%),
+  "red_90": hsl(0, 67%, 24%),
+  "red_100": hsl(0, 50%, 18%)
+);
+
+$mineral__magenta: (
+  "magenta_10": hsl(335, 50%, 96%),
+  "magenta_20": hsl(335, 79%, 91%),
+  "magenta_30": hsl(335, 88%, 84%),
+  "magenta_40": hsl(335, 87%, 76%),
+  "magenta_50": hsl(335, 81%, 63%),
+  "magenta_60": hsl(335, 71%, 49%),
+  "magenta_70": hsl(335, 81%, 38%),
+  "magenta_80": hsl(335, 77%, 31%),
+  "magenta_90": hsl(335, 64%, 23%),
+  "magenta_100": hsl(335, 52%, 17%)
+);
+
+$mineral__purple: (
+  "purple_10": hsl(270, 50%, 96%),
+  "purple_20": hsl(271, 77%, 92%),
+  "purple_30": hsl(271, 79%, 85%),
+  "purple_40": hsl(270, 77%, 78%),
+  "purple_50": hsl(270, 72%, 68%),
+  "purple_60": hsl(270, 61%, 59%),
+  "purple_70": hsl(270, 52%, 49%),
+  "purple_80": hsl(270, 57%, 39%),
+  "purple_90": hsl(270, 56%, 29%),
+  "purple_100": hsl(270, 49%, 22%)
+);
+
+$mineral__indigo: (
+  "indigo_10": hsl(240, 63%, 97%),
+  "indigo_20": hsl(240, 84%, 93%),
+  "indigo_30": hsl(240, 91%, 87%),
+  "indigo_40": hsl(240, 89%, 82%),
+  "indigo_50": hsl(240, 81%, 74%),
+  "indigo_60": hsl(240, 72%, 65%),
+  "indigo_70": hsl(240, 59%, 56%),
+  "indigo_80": hsl(240, 53%, 46%),
+  "indigo_90": hsl(240, 55%, 35%),
+  "indigo_100": hsl(240, 46%, 23%)
+);
+
+$mineral__blue: (
+  "blue_10": hsl(215, 63%, 96%),
+  "blue_20": hsl(217, 84%, 90%),
+  "blue_30": hsl(217, 91%, 83%),
+  "blue_40": hsl(217, 89%, 75%),
+  "blue_50": hsl(217, 81%, 64%),
+  "blue_60": hsl(217, 72%, 52%),
+  "blue_70": hsl(217, 59%, 43%),
+  "blue_80": hsl(217, 53%, 33%),
+  "blue_90": hsl(217, 55%, 25%),
+  "blue_100": hsl(218, 48%, 16%)
+);
+
+$mineral__sky: (
+  "sky_10": hsl(200, 64%, 95%),
+  "sky_20": hsl(200, 86%, 86%),
+  "sky_30": hsl(200, 87%, 76%),
+  "sky_40": hsl(200, 81%, 63%),
+  "sky_50": hsl(200, 73%, 49%),
+  "sky_60": hsl(200, 87%, 37%),
+  "sky_70": hsl(200, 92%, 30%),
+  "sky_80": hsl(200, 90%, 23%),
+  "sky_90": hsl(200, 80%, 18%),
+  "sky_100": hsl(200, 65%, 13%)
+);
+
+$mineral__teal: (
+  "teal_10": hsl(177, 54%, 93%),
+  "teal_20": hsl(177, 66%, 79%),
+  "teal_30": hsl(176, 59%, 64%),
+  "teal_40": hsl(176, 49%, 51%),
+  "teal_50": hsl(176, 60%, 39%),
+  "teal_60": hsl(176, 70%, 30%),
+  "teal_70": hsl(176, 72%, 24%),
+  "teal_80": hsl(176, 73%, 19%),
+  "teal_90": hsl(176, 69%, 14%),
+  "teal_100": hsl(176, 65%, 10%)
+);
+
+$mineral__green: (
+  "green_10": hsl(144, 71%, 93%),
+  "green_20": hsl(144, 65%, 80%),
+  "green_30": hsl(144, 57%, 67%),
+  "green_40": hsl(144, 47%, 55%),
+  "green_50": hsl(144, 46%, 43%),
+  "green_60": hsl(144, 52%, 34%),
+  "green_70": hsl(144, 53%, 27%),
+  "green_80": hsl(144, 52%, 21%),
+  "green_90": hsl(144, 49%, 16%),
+  "green_100": hsl(143, 43%, 12%)
+);
+
+$mineral__bronze: (
+  "bronze_10": hsl(33, 79%, 95%),
+  "bronze_20": hsl(33, 88%, 83%),
+  "bronze_30": hsl(33, 86%, 71%),
+  "bronze_40": hsl(33, 79%, 58%),
+  "bronze_50": hsl(33, 85%, 44%),
+  "bronze_60": hsl(33, 100%, 34%),
+  "bronze_70": hsl(33, 96%, 28%),
+  "bronze_80": hsl(33, 87%, 22%),
+  "bronze_90": hsl(33, 75%, 17%),
+  "bronze_100": hsl(32, 62%, 12%)
+);
+
+$mineral__slate: (
+  "slate_10": hsl(198, 38%, 95%),
+  "slate_20": hsl(206, 68%, 88%),
+  "slate_30": hsl(206, 63%, 79%),
+  "slate_40": hsl(205, 55%, 69%),
+  "slate_50": hsl(205, 42%, 55%),
+  "slate_60": hsl(205, 37%, 45%),
+  "slate_70": hsl(205, 40%, 36%),
+  "slate_80": hsl(204, 38%, 28%),
+  "slate_90": hsl(204, 33%, 21%),
+  "slate_100": hsl(205, 25%, 15%)
+);
+
+$mineral__dusk: (
+  "dusk_10": hsl(264, 24%, 96%),
+  "dusk_20": hsl(256, 63%, 92%),
+  "dusk_30": hsl(256, 61%, 85%),
+  "dusk_40": hsl(255, 52%, 77%),
+  "dusk_50": hsl(255, 43%, 67%),
+  "dusk_60": hsl(254, 33%, 55%),
+  "dusk_70": hsl(255, 29%, 46%),
+  "dusk_80": hsl(255, 30%, 36%),
+  "dusk_90": hsl(255, 26%, 26%),
+  "dusk_100": hsl(253, 20%, 18%)
+);
+
+$mineral__gray: (
+  "gray_10": hsl(216, 33%, 97%),
+  "gray_20": hsl(216, 33%, 94%),
+  "gray_30": hsl(218, 31%, 90%),
+  "gray_40": hsl(218, 28%, 83%),
+  "gray_50": hsl(217, 22%, 74%),
+  "gray_60": hsl(217, 15%, 61%),
+  "gray_70": hsl(217, 10%, 49%),
+  "gray_80": hsl(218, 11%, 39%),
+  "gray_90": hsl(215, 11%, 30%),
+  "gray_100": hsl(217, 11%, 23%)
+);
+
+//TailwindCSS - https://tailwindcss.com/docs/colors/
+$tailwind_gray: (
+  tw__gray--base: #b8c2cc,
+  tw__gray--lightest: #f8fafc,
+  tw__gray--lighter: #f1f5f8,
+  tw__gray--light: #dae1e7,
+  tw__gray--dark: #8795a1,
+  tw__gray--darker: #606f7b,
+  tw__gray--darkest: #3d4852,
+  tw__gray--black: #22292f
+);
+
+$tailwind_red: (
+  tw__red--base: #e3342f,
+  tw__red--lightest: #fcebea,
+  tw__red--lighter: #f9acaa,
+  tw__red--light: #ef5753,
+  tw__red--dark: #cc1f1a,
+  tw__red--darker: #621b18,
+  tw__red--darkest: #3b0d0c
+);
+
+$tailwind_orange: (
+  tw__orange--base: #f6993f,
+  tw__orange--lightest: #fff5eb,
+  tw__orange--lighter: #fcd9b6,
+  tw__orange--light: #faad63,
+  tw__orange--dark: #de751f,
+  tw__orange--darker: #613b1f,
+  tw__orange--darkest: #462a16
+);
+
+$tailwind_yellow: (
+  tw__yellow--base: #ffed4a,
+  tw__yellow--lightest: #fcfbeb,
+  tw__yellow--lighter: #fff9c2,
+  tw__yellow--light: #fff382,
+  tw__yellow--dark: #f2d024,
+  tw__yellow--darker: #684f1d,
+  tw__yellow--darkest: #453411
+);
+
+$tailwind_green: (
+  tw__green--base: #38c172,
+  tw__green--lightest: #e3fcec,
+  tw__green--lighter: #a2f5bf,
+  tw__green--light: #51d88a,
+  tw__green--dark: #1f9d55,
+  tw__green--darker: #1a4731,
+  tw__green--darkest: #0f2f21
+);
+
+$tailwind_teal: (
+  tw__teal--base: #4dc0b5,
+  tw__teal--lightest: #e8fffe,
+  tw__teal--lighter: #a0f0ed,
+  tw__teal--light: #64d5ca,
+  tw__teal--dark: #38a89d,
+  tw__teal--darker: #20504f,
+  tw__teal--darkest: #0d3331
+);
+
+$tailwind_blue: (
+  tw__blue--base: #3490dc,
+  tw__blue--lightest: #eff8ff,
+  tw__blue--lighter: #bcdefa,
+  tw__blue--light: #6cb2eb,
+  tw__blue--dark: #2779bd,
+  tw__blue--darker: #1c3d5a,
+  tw__blue--darkest: #12283a
+);
+
+$tailwind_blue: (
+  tw__indigo--base: #6574cd,
+  tw__indigo--lightest: #e6e8ff,
+  tw__indigo--lighter: #b2b7ff,
+  tw__indigo--light: #7886d7,
+  tw__indigo--dark: #5661b3,
+  tw__indigo--darker: #2f365f,
+  tw__indigo--darkest: #191e38
+);
+
+$tailwind_purple: (
+  tw__purple--base: #9561e2,
+  tw__purple--lightest: #f3ebff,
+  tw__purple--lighter: #d6bbfc,
+  tw__purple--light: #a779e9,
+  tw__purple--dark: #794acf,
+  tw__purple--darker: #382b5f,
+  tw__purple--darkest: #21183c
+);
+
+$tailwind_pink: (
+  tw__pink--base: #f66d9b,
+  tw__pink--lightest: #ffebef,
+  tw__pink--lighter: #ffbbca,
+  tw__pink--light: #fa7ea8,
+  tw__pink--dark: #eb5286,
+  tw__pink--darker: #6f213f,
+  tw__pink--darkest: #451225
+);
