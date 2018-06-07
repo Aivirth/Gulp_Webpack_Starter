@@ -22,7 +22,8 @@ gulp.task("sassmin", () => {
     .pipe(
       plumber({
         errorHandler: err => {
-          console.log(err);
+          console.log(err.message);
+          this.emit("end");
         }
       })
     )
@@ -44,7 +45,8 @@ gulp.task("sass", () => {
     .pipe(
       plumber({
         errorHandler: err => {
-          console.log(err);
+          console.log(err.message);
+          this.emit("end");
         }
       })
     )
