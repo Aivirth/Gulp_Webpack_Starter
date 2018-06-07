@@ -11,8 +11,8 @@ const gcmq = require("gulp-group-css-media-queries");
 const configuration = require("./gulpconfig.json");
 const paths = configuration.paths;
 
-//gulp sassmin
-//compile scss into minified css + map file for production
+//^^ GULP SASSMIN
+//^ compiles scss into minified css + map file for production
 gulp.task("sassmin", () => {
   return gulp
     .src([`${paths.sass}/*.scss`])
@@ -33,8 +33,8 @@ gulp.task("sassmin", () => {
     .pipe(gulp.dest(paths.css));
 });
 
-//gulp sass
-//compile scss files to normal css for development
+//^^ GULP SASS
+//^ compiles scss files to normal css for development
 gulp.task("sass", () => {
   return gulp
     .src([`${paths.sass}/*.scss`])
@@ -52,8 +52,9 @@ gulp.task("sass", () => {
     .pipe(gulp.dest(paths.css));
 });
 
-//gulp watch
-//watch changes to scss files and compile both minified and normal version
+//^^ GULP WATCH
+//^ watches changes to scss files and compile both minified and normal version
 gulp.task("watch", () => {
-  gulp.watch(`${paths.sass}/**/*.scss`, ["sass", "sassmin"]);
+  gulp.watch(`${paths.sass}/**/*.scss`, gulp.series("sass"));
+  gulp.watch(`${paths.sass}/**/*.scss`, gulp.series("sassmin"));
 });
